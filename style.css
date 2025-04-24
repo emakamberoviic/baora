@@ -52,7 +52,7 @@ nav ul {
 nav .btn {
     color: yellow;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 12px;
     padding: 10px 20px;
     border: 2px solid yellow;
     border-radius: 10px;
@@ -68,7 +68,7 @@ nav .btn:hover {
 #about, #contact {
     max-width: 1000px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 40px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
     text-align: center;
