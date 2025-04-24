@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    background: linear-gradient(to bottom, #0a0a0a, #0d1b2a);
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.banner:hover {
+    transform: scale(1.03);
+}
+
+.logo {
+    width: 300px;
+    margin-top: -100px;
+    z-index: 5;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+nav .btn {
+    color: yellow;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+nav .btn:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.1);
+}
+
+#about, #contact {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+#about:hover, #contact:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: yellow;
+    font-size: 48px;
+}
+
+h2 {
+    color: white;
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
